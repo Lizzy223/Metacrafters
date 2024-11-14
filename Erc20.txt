@@ -4,3 +4,14 @@ transfer tokens from one account to another
 get the current token balance of an account
 get the total supply of the token available on the network
 approve whether an amount of token from an account can be spent by a third-party account
+
+ERC20 standard interface has following functions and events:
+
+Total Supply: The total number of tokens that will ever be issued
+Balance Of: The account balance of a token owner's account
+Transfer: Automatically executes transfers of a specified number of tokens to a specified address for transactions using the token
+Transfer From: Automatically executes transfers of a specified number of tokens from a specified address using the token
+Approve: Allows a spender to withdraw a set number of tokens from a specified account, up to a specific amount
+Allowance: Returns a set number of tokens from a spender to the owner
+Transfer: An event triggered when a transfer is successful (an event)
+Approval: A log of an approved event (an event)
