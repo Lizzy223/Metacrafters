@@ -12,7 +12,8 @@ string public constant symbol;
 uint8 public constant decimals;
 
 uint256 totalSupply_;
-constructo (uint256 total ) public {
+
+constructor (uint256 total ) public {
   totalSupply_ = total;
   balances[msg.sender] = totalSupply_;
 }
