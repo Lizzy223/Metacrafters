@@ -10,11 +10,14 @@ contract Error {
     }
 
     function testRevert(uint _i) public pure {
+
         // Revert is useful when the condition to check is complex.
         // This code does the exact same thing as the example above
+
         if (_i <= 10) {
             revert("Input must be greater than 10");
         }
+
     }
 
     uint public num;
